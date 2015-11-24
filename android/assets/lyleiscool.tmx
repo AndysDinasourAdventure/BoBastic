@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="32" tileheight="32" nextobjectid="168">
+ <tileset firstgid="1" name="tile-duke-example" tilewidth="48" tileheight="48" margin="1" tilecount="56">
+  <image source="tile-duke-example.png" width="432" height="383"/>
+ </tileset>
+ <tileset firstgid="57" name="map1" tilewidth="68" tileheight="65" spacing="4" margin="4" tilecount="14">
+  <image source="map1.png" trans="fffaf5" width="1008" height="72"/>
+ </tileset>
+ <tileset firstgid="71" name="New Piskel (3) copy" tilewidth="40" tileheight="57" spacing="4" margin="4" tilecount="4">
+  <image source="New Piskel (3) copy.png" trans="fffaf5" width="184" height="61"/>
+ </tileset>
+ <tileset firstgid="75" name="floatingplatform" tilewidth="72" tileheight="32" tilecount="1">
+  <image source="floatingplatform.png" trans="fffaf5" width="72" height="32"/>
+ </tileset>
+ <tileset firstgid="76" name="vines1" tilewidth="64" tileheight="60" margin="8" tilecount="3">
+  <image source="vines1.png" trans="fffaf5" width="216" height="72"/>
+ </tileset>
+ <tileset firstgid="79" name="New Piskel (2) copy" tilewidth="64" tileheight="64" tilecount="2">
+  <image source="New Piskel (2) copy.png" trans="fffaf5" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="spike2" tilewidth="32" tileheight="16" tilecount="1">
+  <image source="spike2.png" trans="fffaf5" width="32" height="16"/>
+ </tileset>
+ <tileset firstgid="82" name="tree1" tilewidth="82" tileheight="122" tilecount="1">
+  <image source="tree1.png" trans="fffaf5" width="82" height="122"/>
+ </tileset>
+ <layer name="Vines" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJAAAIA0HB/Xe2sDUDCHeQEb5JFQAAAAAAAAAA/NDHgKUHyPQBmT4g0wdkqQ/dwPJhAQDfDZQ5ADE=
+  </data>
+ </layer>
+ <layer name="Ground" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2FEOgyAQRVH25Zfuf1H9akomzMwTVEi9JzE0RJAm8wq2FAAAAADAE7bZCwAWts9eALAw8gH4yAfeajNXC/lAxNZQq6aifmUOb/zd9vKrfy8H5AORffDqneNqNqv1ukrxn0k+EOmt8ZGxd9RklNd6ra1xtdX2QMzVuxcUp1XnGdGq06vyMTPjWE9W617dZWNK8nnEUbVHss6efLTmIB/v1PPbH+UjmtP2Wdl/BF/kA09R9gZln/D6z+TjSK76vvr+M1m2yAciaj2r56wz5y8ryoWSj9Z6yQdGqOcSNR9Zm+Xj25IPrECpA/Xsclc+1POV933qNVjkA5Gr8qH2Z/lQ3z/Ud4/sma18jMyH//IBsmOEcg==
+  </data>
+ </layer>
+ <layer name="Spikes" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1zENAAAMw7BSLH8ye0Zg72RLAZEEALjqBgAAAJ80nhcAAAA+8vwAAAAAAMDFAJUIAok=
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="200" height="20" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2T0OwyAMhmGulbFNh6rdcv/DZOgSkBoQwvaX8D4SQwZ+YjAiISUAAAAAgLftUFD3jR4AXGyVomSJHoCRz6B2Xh11VOb4URQ1q2NfqjFQV87RXfYL1kOOWIyxpHvkCOshpx4Pq2+Lp3G93vbPtJ793gF9jjJq7LX4e78X/JRnu9pzSxsWov6bWOxNPa68T10VcfpPJS+OPP8lzC5i/mfpE77U5lhtPDMg5gAA5Mo7ZOX7ZMDLWV6QI8AP+QG0IS+AnNo5awdpXxnU
+  </data>
+ </layer>
+ <objectgroup name="SpikesObject">
+  <object id="164" x="2051.1" y="79.489" width="56.7779" height="17.0334"/>
+  <object id="165" x="640.17" y="238.467" width="95.1029" height="18.4528"/>
+ </objectgroup>
+ <objectgroup name="GroundObject">
+  <object id="137" x="1121.98" y="416.265" width="285.32" height="220.538"/>
+  <object id="138" x="1444.52" y="355.617" width="472.777" height="278.429"/>
+  <object id="139" x="1601.65" y="290.834" width="158.511" height="68.918"/>
+  <object id="140" x="1760.17" y="223.294" width="158.511" height="132.323"/>
+  <object id="163" x="7.09723" y="259.759" width="985.096" height="378.992"/>
+  <object id="166" x="2046.84" y="95.1029" width="63.8751" height="542.229"/>
+  <object id="167" x="2178.85" y="322.214" width="377.573" height="313.698"/>
+ </objectgroup>
+</map>
