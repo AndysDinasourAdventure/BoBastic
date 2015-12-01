@@ -182,7 +182,7 @@ public class MyGdxGame extends ApplicationAdapter {
         exitbuttonbox = new Rectangle();
         exitbuttonbox.set(588, 125, exitButton.getWidth(), exitButton.getHeight());
         restartbuttonbox = new Rectangle();
-        restartbuttonbox.set(601, 382, restartButton.getWidth(), restartButton.getHeight());
+        restartbuttonbox.set(200, 425, restartButton.getWidth(), restartButton.getHeight());
         seconbuttonbox = new Rectangle();
         seconbuttonbox.set(900, 425, Secondbutton.getWidth(), Secondbutton.getHeight());
 
@@ -378,17 +378,19 @@ public class MyGdxGame extends ApplicationAdapter {
                 //FUCK
 
 
+                if (Gdx.input.isTouched()) {
+                    long x = Gdx.input.getX();
+                    long y = Gdx.graphics.getHeight() - Gdx.input.getY();
+                    if (restartbuttonbox.contains(x, y)) {
+                        resetGame();
+                    }
 
-                if (Gdx.input.isTouched() && restartbuttonbox.contains(Gdx.input.getX(), Gdx.input.getY())) {
-                   resetGame();
-                }
-
-                if (Gdx.input.isTouched() && exitbuttonbox.contains(Gdx.input.getX(), Gdx.input.getY())) {
-                        atmenu = true;
-                        System.out.println("WEE DOING STUF");
+                    if (exitbuttonbox.contains(x, y)) {
+                        StartScreen.atmenu = true;
+                        dead = false;
                     }
                 }
-
+            }
         }
     }
 
